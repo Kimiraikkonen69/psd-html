@@ -16,20 +16,23 @@
 }
 
 main {
-  background: #f9f8fb url("media/s1-bg.jpg") no-repeat top center;
+  background: #f9f8fb url("media/s1-bg.jpg") no-repeat;
   background-size: cover;
-}
-
-header {
-  position: absolute;
+  padding-top: 50px;
 }
 
 .s1 h1 {
   font-size: 60px;
+  margin-bottom: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
 }
 
 .s1 p {
   font-size: 17px;
+  margin-bottom: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
 
 .s1 a {
@@ -51,6 +54,16 @@ header {
   min-height: 700px;
 }
 
+.s1-content {
+  width: 370px;
+  margin-top: 200px;
+}
+
+nav {
+  margin-left: 480px;
+  display: inline-block;
+}
+
 nav a {
   text-decoration: none;
   color: #262626;
@@ -59,6 +72,12 @@ nav a {
   font-size: 16px;
   text-transform: uppercase;
   margin-left: 30px;
+}
+
+.scroll img {
+  position: absolute;
+  margin-top: 900px;
+  margin-left: 573px;
 }
 
 .s2 {
