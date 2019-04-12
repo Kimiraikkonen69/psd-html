@@ -15,6 +15,10 @@
   margin: 0 auto;
 }
 
+header .inner {
+  position: relative;
+}
+
 main {
   background: #f9f8fb url("media/s1-bg.jpg") no-repeat;
   background-size: cover;
@@ -62,6 +66,8 @@ main {
 nav {
   margin-left: 480px;
   display: inline-block;
+  position: absolute;
+  box-sizing: border-box;
 }
 
 nav a {
@@ -72,6 +78,12 @@ nav a {
   font-size: 16px;
   text-transform: uppercase;
   margin-left: 30px;
+  line-height: 32px;
+}
+
+nav a:hover {
+  display: inline-block;
+  box-shadow: 0px -5px 0px -2px #ff5f33;
 }
 
 .scroll img {
@@ -258,6 +270,73 @@ nav a {
   color: #ffffff;
   margin-top: 50px;
   margin-left: calc(50% - 100px);
+}
+
+.s5 {
+  background: #ffffff;
+  height: 500px;
+  padding-top: 140px;
+  position: relative;
+}
+
+.s5 h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.s5 p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.s5 .s5_text {
+  width: 570px;
+  text-align: left;
+}
+
+.s5 form {
+  width: 770px;
+  height: 55px;
+}
+
+.s5 form input {
+  width: 570px;
+  height: 55px;
+  border: 1px solid black;
+  display: inline-block;
+  outline: none;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+.s5 form a {
+  display: inline-block;
+  text-align: center;
+  line-height: 55px;
+  width: 170px;
+  height: 55px;
+  background: #96b92c;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.s5 img {
+  position: absolute;
+  top: 83px;
+  left: 977px;
 }
 
 /*# sourceMappingURL=style.css.map */
